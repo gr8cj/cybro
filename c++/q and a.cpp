@@ -2,56 +2,55 @@
 #include <iostream>
 using namespace std;
 int main() {
+    // cout<<"enter your location";
     int a;
-    int b;
     cin>>a;
-    cin>>b;
-    // this is fror 2
+    // cin>>b;
+    // this is fror 1
     if(a==1){
-        if(b==1){
-            cout<<"way for you to reach is 1-1 ";
-        }
-        else if(b==2){
-            cout<<"way for you to reach is 1-2, 1-3-2";
-        }
-        else if(b==3){
+            cout<<"enter your destination";
+            cin>>a;
+        if(a==2){
+            cout<<"enter your destination";
+             cin>>a;
+            if(a==3){
             cout<<"way for you to reach is 1-3 , 1-2-3";
         }
         else{
             cout<<"wromg input";
         }
     }
-    else if(a==2){
-        if(b==1){
-            cout<<"way for you to reach is 2-1 2-3-1 ";
-        }
-        else if(b==2){
-            cout<<"way for you to reach is 2-2 ";
-        }
-        else if(b==3){
-            cout<<"way for you to reach is 2-3 , 2-1-3 ";
-        }
-        else{
-            cout<<"not an address";
-        }
-        
-    }else if(a==3){
-        if(b==1){
-            cout<<"way for you to reach is 3-1 , 3-2-1";
-        }
-        else if(b==2){
-            cout<<"way for you to reach is 3-2 , 3-1-2";
-        }
-        else if(b==3){
-            cout<<"way for you to reach is 3-3";
+    }
+        else if(a==2){
+            cout<<"enter your destination";
+            cin>>a;
+        if(a==1){
+            cout<<"enter your destination";
+             cin>>a;
+            if(a==3){
+            cout<<"way for you to reach is 213";
         }
         else{
-            cout<<" not and address";
+            cout<<"wromg input";
         }
+    }
+    }
+       else if(a==3){
+            cout<<"enter your destination";
+            cin>>a;
+        if(a==2){
+            cout<<"enter your destination";
+             cin>>a;
+            if(a==1){
+            cout<<"way for you to reach is 321";
+        }
+        else{
+            cout<<"wromg input";
+        }
+    }
     }
     else{
-      cout<<"wrong address";
+        cout<<"wrong address";
     }
-    
     return 0;
 }
