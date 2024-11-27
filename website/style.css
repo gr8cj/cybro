@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#topart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#topart img{
+    width: 50px;
+}
+#topart nav ul{
+    display: flex;
+    gap: 100px;
+   
+}
+#topart nav ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+#topart nav ul li {
+    text-decoration: none;
+    /* color: black; */
+    list-style: none;
+    
+}
