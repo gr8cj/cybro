@@ -5,10 +5,16 @@
 #topart{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    align-items: center;
+    /* margin-top: 0px; */
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 60px;
+    background-color: bisque;
 }
 #topart img{
     width: 50px;
+    padding-left: 10px;
 }
 #topart nav ul{
     display: flex;
@@ -23,6 +29,17 @@
 #topart nav ul li {
     text-decoration: none;
     /* color: black; */
-    list-style: none;
-    
+    list-style: none;   
 }
+#topart button{
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 8px;
+}
+#name a span{
+    height: 40px;
+}
+/* #topart nav ul li:hover{
+    height: 40px;
+    transition: ease-in-out;
+} */
