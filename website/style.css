@@ -11,10 +11,12 @@
     border-radius: 5px;
     height: 60px;
     background-color: bisque;
+    width: 95%;
+
 }
 #topart img{
     width: 50px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 #topart nav ul{
     display: flex;
@@ -25,19 +27,27 @@
     text-decoration: none;
     color: black;
     
+        font-family: "Baloo Paaji 2", sans-serif;
+        font-optical-sizing: auto;
+         font-weight: 700;
+        font-style: normal; 
+    
 }
 #topart nav ul li {
     text-decoration: none;
     /* color: black; */
     list-style: none;   
+    
 }
 #topart button{
-    margin-right: 10px;
+    /* margin-right: 10px; */
     padding: 1px;
     border-radius: 8px;
 }
-#name a span{
+#topart span{
     height: 40px;
+    font-weight: bold;
+    /* font-size:   ; */
 }
 /* #topart nav ul li:hover{
     height: 40px;
