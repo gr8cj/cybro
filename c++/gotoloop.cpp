@@ -4,15 +4,15 @@ int main(){
     cout<<"a";
     cout<<"b";
     cout<<"c";
+     int op=10;
     lebel:
-    int op=0;
-    if(op==0){
+    if(op==20){
         cout<<"d";
     }
-    else if(op==2){
-         cout<<"e";
-    }
+    
     else{
+        cout<<op;
+        op++;
       goto lebel;  
     }
     
