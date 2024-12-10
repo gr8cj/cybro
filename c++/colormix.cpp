@@ -4,16 +4,16 @@ using namespace std;
 int main() {
     int red=1;
     int orange=2;
-    int =3;
+    // int =3;
     int red=4;
     int red=5;
     int red=6;
     
     if(1 &&2){
-        cout<<"dark red"
+        cout<<"dark red";
     }
     else if(3 &&4){
-        cout<<"dark red"
+        cout<<"dark red";
     }
     else if(5 &&6){
         

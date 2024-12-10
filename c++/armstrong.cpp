@@ -13,7 +13,7 @@ int main()
     int sum=0;
     int n=153;
     int num=n;
-    
+    // int by=um
     while(n!=0){
         
         int a=n%10;
