@@ -14,6 +14,7 @@ int main()
     int n=153;
     int num=n;
     // int by=um
+    // this is also a comment?
     while(n!=0){
         
         int a=n%10;
