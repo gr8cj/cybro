@@ -5,3 +5,4 @@ for i in l:
         if i==i[::-1]:
             l1.append(i)
 print(l1)
+# this is comment in python
