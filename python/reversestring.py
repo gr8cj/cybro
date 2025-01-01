@@ -7,4 +7,6 @@ if s==rev:
     print("palindrome")
 else:
     print("not a palindrome")
+    # /hfksl
+    
     

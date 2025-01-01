@@ -1,4 +1,5 @@
 l=[10,12,2,3,4,12,421,4,2412,]
+print(l.sort())
 for i in range(len(l)):
     for j in range(i+1,len(l)):
         if l[i]>l[j]:
