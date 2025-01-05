@@ -5,3 +5,4 @@ for i,j in zip(l1,l2):
     l3.append(i**j)
 print(l3)
 PRINT(L3)
+print(l3)
