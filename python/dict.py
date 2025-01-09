@@ -11,4 +11,5 @@ for i in d.items()[
 for i in d.key():
     print(i)
     for i in tange
+    for i in range(i)
     
