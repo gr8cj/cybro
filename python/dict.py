@@ -12,4 +12,5 @@ for i in d.key():
     print(i)
     for i in tange
     for i in range(i)
-    
+l={10,20,30,40,}
+print(l)
