@@ -14,3 +14,4 @@ for i in d.key():
     for i in range(i)
 l={10,20,30,40,}
 print(l)
+p(wds)
