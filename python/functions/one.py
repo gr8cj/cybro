@@ -15,8 +15,8 @@ three(1,2,3)
 
 
 def sum(a):
-    return a + (sum-1)
+    return a + sum(a-1)
 sum(10)
 def mul(n):
-    return n + (mul-1)
+    return n + mul(n-1)
 mul(10)
