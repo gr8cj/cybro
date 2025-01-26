@@ -3,5 +3,6 @@ print(s[::-1])
 
 
 
-for i in range(122):
-    print("hiiiii")
+l=[10,12,1,1,212,121,1,1,12,21,21,21,1]
+print(l[::-1])
+print(l[:l/2:]+l[l/2::-1])
