@@ -1,6 +1,5 @@
-l=[1,2,3,4,5]
-arr=numpy.arr(l)
-print(arr)
-print(arr.ndim)
-print(arr.shape)
-print(arr.dtype)
+l=[]
+for i in range(3):
+    book=input("enter book name")
+    l.append(book)
+print(l)
