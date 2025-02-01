@@ -19,3 +19,6 @@ rename table stu to student;
 rename table student to stu;
 show databases;
 desc stu;
+
+
+rename table stu to students;
