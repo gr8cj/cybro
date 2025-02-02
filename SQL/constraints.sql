@@ -21,4 +21,4 @@ show databases;
 desc stu;
 
 
-rename table stu to students;
+rename table stu to students;;
