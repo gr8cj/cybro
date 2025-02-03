@@ -21,4 +21,7 @@ show databases;
 desc stu;
 
 
-rename table stu to students;;
+rename table stu to students;
+
+
+alter table username drop primary key modfidy pid int;
