@@ -25,3 +25,6 @@ rename table stu to students;
 
 
 alter table username drop primary key modfidy pid int;
+
+
+
