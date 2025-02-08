@@ -1,30 +1,68 @@
-#check constraints
-#alter table tablename add constraints check(colname);
-alter table customers add constraint check(age>=18);
+create database bank;
+use bank;
+create table customers
+(cid int primary key,cname varchar(20) not null ,age tinyint,gender varchar(20),mobile varchar(20) unique,city varchar(20) default "bhopal",check (age>=18));
+desc customers;
+
+#remove primart key  
+#alter table tablename drop primary key;
+alter table customers drop primary key;
+alter table customers modify cid int;
+alter table customers modify cname varchar(40);
+alter table customers modify city varchar(33);
 desc customers;
 
 
-create database collage;
-use collage;
-create table stu(sid int primary key,sname varchar(30) not null,rollno int unique,age tinyint,check (age >=18) );
-select * from stu;
-desc stu;
-alter table stu add column subject varchar(10);
+#alter table tablename drop constraint constraintname;
 
-create table subjects(sid int  primary key,  sname varchar(20) not null,allowed varchar(20) default "yes");
+alter table customers drop constraint customers_chk_1;
 
-create table class(cid int primary key,section varchar(12), subid int ,foreign key(subid) references subjects(sid));
-
-rename table stu to student;
-rename table student to stu;
-show databases;
-desc stu;
+##alter table tablename drop primary key,uniqe ,check;
+#modify default nt nal
 
 
-rename table stu to students;
+-- alter table tablename drop  primary key,uniqe ,check uniquekeyname
 
+alter table customers drop key mobile;
+alter table customers drop index mobile;
 
-alter table username drop primary key modfidy pid int;
+select * from customers;
+desc customers;
 
 
 
+
+
+
+
+
+
+
+
+
+#add constraints
+-- primary key 
+-- alter table tablename add primary key (colname)
+
+alter table customers add primary key (cid);
+desc customers;
+
+#not null
+#alter table tablename modify colmname datatye notnull;'
+alter table customers modify cname varchar(50) not null;
+desc customers;
+
+#default 
+#alter table tablename modify conlname datatype default ;
+alter table customers modify city varchar(50) default "bhopal";
+desc customers;
+
+#unique
+#alter table tablename add unique(colname);
+alter table customers add unique(mobile);
+desc customers;
+
+#check constraints
+#alter table tablename add constraints check(colname);
+alter table customers add constraint check(age>=18);
+desc customers; 
