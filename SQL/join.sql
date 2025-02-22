@@ -12,4 +12,4 @@ where od.productcode is null;
 select color from boats b
 inner join Reserves r on b.bid=r.bid
 inner join sailors s on r.sid=s.sid
-where sname="lubber";:::
+where sname="lubber";:::ff
