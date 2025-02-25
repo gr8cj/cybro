@@ -20,3 +20,8 @@ alter table orders drop key userid;
 desc orders;
 
 -- alter table orders add foreign key(userid) references users(uid);
+
+
+
+
+;
