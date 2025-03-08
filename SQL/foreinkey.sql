@@ -19,4 +19,4 @@ alter table orders drop foreign key orders_ibfk_3;
 alter table orders drop key userid;
 desc orders;
 
--- alter table orders add foreign key(userid) references users(uid);
+-- alter table orders add foreign key(userid) references users(uid);dsd
