@@ -125,4 +125,4 @@ select * from employees where manager_id in ( select emp_id from employees where
 select  first_name,salary from employees where  salary >(select max(salary) from employees where department_id = 1);
 
 dfd
-hjkjhhhjkhjsjsjkscommsddsds
+hjkjhhhjkhjsjsjkscommsddsdsfsfsssffs
