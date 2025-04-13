@@ -108,7 +108,7 @@ update employees set eid=@num:=@num+1;
 
 set sql_safe_updates=0;
 select * from employees;
-ytuytuy
+ytuytuyjhgjhgjhgjh
 alter table employees drop primary key ,mkjdjfjdkfjskfdjsodify eid int;
 
 desc employees;
