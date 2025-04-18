@@ -19,7 +19,7 @@ values(1,"xyz","+918367464"),
 select * from users;
 
 insert into orders(oid,userid,pid)
-values
+valuesnbvbnbvnb
 (101,1,202),
 (102,2,201),(103,1,203),(104,3,201),(105,2,202);
 
